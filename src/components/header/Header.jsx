@@ -53,7 +53,7 @@ function Header() {
     {/* Logo */}
           <div className="shrink-0">
             <a href="#">
-            <img src="/public/images/websitelogo/zupito-logo.png" alt="Zupito" className="h-8 sm:h-9 md:h-10 lg:h-11 w-auto" />
+            <img src="/images/websitelogo/zupito-logo.png" alt="Zupito" className="h-8 sm:h-9 md:h-10 lg:h-11 w-auto" />
             </a>
           </div>
 
@@ -239,7 +239,7 @@ function Header() {
           <div className="sticky top-0 bg-white border-b border-[#EEF0F3] px-4 sm:px-6 md:px-8 py-4 flex items-center justify-between z-10">
             {/* Logo */}
             <div className="shrink-0">
-              <img src="/public/images/websitelogo/zupito-logo.png" alt="Zupito" className="h-9 md:h-10 w-auto" />
+              <img src="/images/websitelogo/zupito-logo.png" alt="Zupito" className="h-9 md:h-10 w-auto" />
             </div>
             
             {/* Close Button */}
