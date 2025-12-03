@@ -28,7 +28,7 @@ function HeroSection() {
   }, []);
 
   return (
-    <main className="relative w-full bg-white">
+    <main className="relative w-full bg-white mt-30">
       {/* Hero Section */}
       <section
         ref={sectionRef}
