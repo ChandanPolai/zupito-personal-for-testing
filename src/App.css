@@ -37,8 +37,29 @@ body {
 .home-subtitle {
   font-size: 26px;
   font-weight: 600;
+  line-height: 50px;
+  letter-spacing: -1.5px;
+}
+
+.home-subtitle-actionpage{
+  font-size: 40px;
+  font-weight: 600;
   line-height: 1.35;
   letter-spacing: -0.01em;
+}
+
+.actionpage-description{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0;
+}
+
+.home-description-actionpage{
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: 0;
 }
 
 .home-description {
