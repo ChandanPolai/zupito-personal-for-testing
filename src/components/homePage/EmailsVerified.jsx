@@ -11,12 +11,12 @@ const EmailsVerified = () => {
     >
       {/* Outer container mirrors EmailPrecision spacing rhythm */}
       <div className="w-full h-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[170px]! pt-10! lg:pt-16!">
-        <div className="max-w-[full] lg:max-w-[1024px] mx-auto relative">
+        <div className="max-w-[full] lg:max-w-[1362px] mx-auto relative">
           {/* Main container - first image: width 1362px, height 624px, gap 24px */}
           <div className="w-full max-w-[full] mx-auto max-h-auto lg:h-[full] lg:flex items-stretch gap-6 md:gap-8">
             {/* Left column - second image: width 555px, height 623px, gap 20px, border-radius 24px, padding 24px, background #F0EBFF */}
             <div
-              className="w-full lg:w-[510px] h-auto lg:h-full rounded-[24px] p-6! bg-[#F0EBFF] flex flex-col gap-5  mb-4 lg:mb-0"
+              className="w-full lg:w-[525px] h-auto lg:h-[623px] rounded-[24px] p-6! bg-[#F0EBFF] flex flex-col gap-5  mb-4 lg:mb-0"
               data-animate-item
             >
               {/* Title section */}
@@ -24,7 +24,7 @@ const EmailsVerified = () => {
                 <h2
                   data-animate-item
                   style={{ transitionDelay: "0.08s" }}
-                  className="home-subtitle sm:text-[24px]! sm:leading-[32px]! md:leading-[36px]! lg:leading-[40px]! font-['Inter'] text-center"
+                  className="home-subtitle-emailverified sm:text-[32px]! sm:leading-[32px]! md:leading-[36px]! lg:leading-[40px]! font-['Inter'] text-center"
                 >
                   <span className="text-[#132436]">
                     Lead Generation <span className="text-[#9C93B4]">with</span>{" "}
@@ -46,14 +46,14 @@ const EmailsVerified = () => {
                 <img
                   src="/images/shape-automate.png"
                   alt="Email verification workflow"
-                  className="w-full md:max-h-[300px] lg:max-h-[300px] xl:max-h-[380px] rounded-[16px] object-contain"
+                  className="w-full h-full md:max-h-[455px]  rounded-[16px] object-contain"
                 />
               </div>
             </div>
 
             {/* Right column */}
             <div
-              className="w-full lg:w-auto justify-between   flex flex-col   bg-white rounded-[24px] border border-solid border-[var(--color-grey-92,#E9EAEB)] overflow-hidden"
+className="flex flex-col w-[783px] h-[624px] rounded-[24px] border border-[#E9EAEB] p-[1px] gap-[20px] overflow-hidden bg-white"
               data-animate-item
               style={{ transitionDelay: "0.2s" }}
             >
@@ -72,14 +72,14 @@ const EmailsVerified = () => {
 
               {/* Bottom section - width 781px, height 240px, padding 30px 32px, border-radius bottom 24px, background #F9F9F8 */}
               <div
-                className="w-full max-w-[781px] mx-auto lg:mx-0 h-auto  rounded-b-[24px] bg-[#F9F9F8] px-6 py-4 flex flex-col"
+                className="w-full max-w-[781px] mx-auto lg:mx-0 h-[240px]  rounded-b-[24px] bg-[#F9F9F8] gap-2.5 px-6 py-4 flex flex-col"
                 data-animate-item
                 style={{ transitionDelay: "0.3s" }}
               >
                 {/* Content wrapper - width 717px, height 180px, gap 30px */}
-                <div className="w-full max-w-[717px] h-full flex flex-col gap-2 justify-between">
+                <div className="w-full max-w-[717px] h-full flex flex-col gap-8 justify-between">
                   {/* Description text */}
-                  <p className="home-description   text-[#546779] font-['Manrope']">
+                  <p className="home-description-emailverified   text-[#546779] font-['Manrope']">
                     Zupitu ensures your emails always reach the right inbox.
                     High email deliverability is achieved through reduced bounce
                     rates, a healthy email list,
@@ -89,13 +89,13 @@ const EmailsVerified = () => {
                   <div>
                     <button
                       data-hover="lift"
-                      className="inline-flex font-['Manrope'] items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px]  sm:leading-[28px] md:leading-[30px] capitalize cursor-pointer"
+                      className="inline-flex  font-['Manrope'] items-center gap-2 text-[#EB3609] font-bold text-[22px] leading-[26px]  sm:leading-[28px] md:leading-[30px] capitalize cursor-pointer"
                     >
                       <span>Explore Email Finder</span>
                       <img
                         src="/images/right-orange-arrow.svg"
                         alt="Right arrow icon"
-                        className="w-3 h-3"
+                        className="w-4 h-3"
                       />
                     </button>
                   </div>

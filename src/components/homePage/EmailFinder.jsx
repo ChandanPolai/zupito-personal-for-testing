@@ -11,7 +11,7 @@ const EmailFinder = () => {
     >
       {/* Outer container - follow ActionsPage spacing rhythm */}
       <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[170px]! pt-10! sm:pt-12! md:pt-14! lg:pt-16! pb-10! lg:pb-16!">
-        <div className="max-w-[full] lg:max-w-[1024px] mx-auto">
+        <div className="max-w-[full] lg:max-w-[1362px] sm:h-[592px] h-auto mx-auto">
           {/* First image: overall card container */}
           <div className="relative w-full bg-white  overflow-hidden">
             {/* Two column responsive layout */}
@@ -36,7 +36,7 @@ const EmailFinder = () => {
                   <div className="max-w-[750px] gap-2 mx-auto flex flex-col justify-between h-full">
                     {/* Fifth image text */}
                     <div>
-                      <p className="home-description  text-[#546779] font-['Manrope']">
+                      <p className="home-description-emailfinder  text-[#546779] font-['Manrope']">
                         Beyond Opt-In mail list, email finder is a one of the
                         most reliable sources of building a deliverable list.
                         Zupitu helps you uncover the most accurate.
@@ -45,13 +45,13 @@ const EmailFinder = () => {
                     <div>
                       <button
                         data-hover="lift"
-                        className="inline-flex font-['Manrope'] items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:leading-[28px]  md:leading-[30px] capitalize cursor-pointer"
+                        className="inline-flex font-['Manrope'] items-center gap-2 text-[#EB3609] font-bold text-[22px] leading-[26px] sm:leading-[28px]  md:leading-[30px] capitalize cursor-pointer"
                       >
                         <span>Explore Email Finder</span>
                         <img
                           src="/images/right-orange-arrow.svg"
                           alt="Right arrow icon"
-                          className="w-3 h-3"
+                          className="w-4 h-3"
                         />
                       </button>
                     </div>
@@ -63,7 +63,7 @@ const EmailFinder = () => {
               {/* RIGHT: sixth image background with list */}
               <div className="col-span-2">
                 <div
-                  className="relative min-h-auto lg:min-h-auto p-4! sm:p-5! md:p-6! rounded-[24px] border-[#EEF0F3] border-solid border"
+                  className="relative w-[522px] min-h-auto lg:min-h-auto p-4! sm:p-5! md:p-6! rounded-[24px] border-[#EEF0F3] border-solid border"
                   data-animate-item
                   style={{ transitionDelay: "0.15s" }}
                 >
@@ -79,7 +79,7 @@ const EmailFinder = () => {
                   <h3
                     data-animate-item
                     style={{ transitionDelay: "0.2s" }}
-                    className="home-subtitle px-3 sm:text-[22px]! text-center font-['Inter'] text-[#132436] capitalize"
+                    className="home-subtitle-emailfinder px-3  text-center font-['Inter'] text-[#132436] capitalize"
                   >
                       List Building With Reliable <br /> Email Finder
                     </h3>
@@ -104,11 +104,11 @@ const EmailFinder = () => {
                             <img
                               src="/images/Bullet.svg"
                               alt=""
-                              className="w-4! h-4 md:w-5 md:h-5 object-contain"
+                              className="w-5! h-4 md:w-6 md:h-5 object-contain"
                             />
                           </span>
                           <span
-                            className="home-description text-[16px]! text-[#3A4A5A] font-['Manrope'] email-finder-label"
+                            className="home-description-emailfinder-bottom  text-[#3A4A5A] font-['Manrope'] email-finder-label"
                             style={{
                               animationDelay: `${0.28 + idx * 0.18}s`,
                               animationDuration: "0.9s",
